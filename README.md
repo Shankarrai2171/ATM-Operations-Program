@@ -30,10 +30,10 @@ Balance = 50000
 ## user_pin = int(input("Please enter your four-digit PIN: ")):
 ## This prompts the user to enter their four-digit PIN and converts the input to an integer.
 
-if user_pin != ATM_Pin:
-     Chances -= 1
-      print("You have entered the wrong PIN. Please enter the correct PIN to proceed.")
-      print(f"You have {Chances} chances left.")
+    if user_pin != ATM_Pin:
+        Chances -= 1
+        print("You have entered the wrong PIN. Please enter the correct PIN to proceed.")
+        print(f"You have {Chances} chances left.")
       
 ## Incorrect PIN Handling:
 ## if user_pin != ATM_Pin: This checks if the entered PIN is incorrect.
