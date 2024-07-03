@@ -39,13 +39,12 @@ Balance = 50000
 ## if user_pin != ATM_Pin: This checks if the entered PIN is incorrect.
 ## Chances -= 1: This decreases the number of remaining attempts by 1.
 ## print("You have entered the wrong PIN. Please enter the correct PIN to proceed."): 
-
 ## This informs the user that the entered PIN is incorrect.
+## print(f"You have {Chances} chances left."): This displays the number of remaining attempts.
 
-print(f"You have {Chances} chances left."): This displays the number of remaining attempts.
-   else:
-       while True:
-           user_choice = input("B: Balance, W: Withdraw, D: Deposit: ")
+     else:
+        while True:
+            user_choice = input("B: Balance, W: Withdraw, D: Deposit: ").upper()
            
 ## Correct PIN Handling and Transaction Menu:
 ## else: This block executes if the entered PIN is correct.
