@@ -7,10 +7,10 @@
 
 ## python
 
-print("Welcome to ABC Bank ATM")
-ATM_Pin = 1234
-Balance = 50000
-Chances = 3
+### print("Welcome to ABC Bank ATM")
+### ATM_Pin = 1234
+### Balance = 50000
+### Chances = 3
 
 ## Welcome Message and Variable Initialization:
 
