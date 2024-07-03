@@ -7,19 +7,24 @@
 
 ## python
 
-### print("Welcome to ABC Bank ATM")
-### ATM_Pin = 1234
-### Balance = 50000
-### Chances = 3
+print("Welcome to ABC Bank ATM")
+
+ATM_Pin = 1234
+
+Balance = 50000
+
+ Chances = 3
 
 ## Welcome Message and Variable Initialization:
 
-print("Welcome to ABC Bank ATM"): This line displays a welcome message to the user.
-ATM_Pin = 1234: This sets the ATM PIN to 1234.
-Balance = 50000: This sets the initial balance to 50,000.
-Chances = 3: This sets the number of attempts the user has to enter the correct PIN to 3.
+## print("Welcome to ABC Bank ATM"): This line displays a welcome message to the user.
+## ATM_Pin = 1234: This sets the ATM PIN to 1234.
+## Balance = 50000: This sets the initial balance to 50,000.
+## Chances = 3: This sets the number of attempts the user has to enter the correct PIN to 3.
+
     while Chances != 0:
        user_pin = int(input("Please enter your four-digit PIN: "))    
+       
 ## PIN Entry and Validation Loop:
 ## while Chances != 0: This starts a loop that continues as long as the user has remaining chances.
 ## user_pin = int(input("Please enter your four-digit PIN: ")):
@@ -36,10 +41,12 @@ if user_pin != ATM_Pin:
 ## print("You have entered the wrong PIN. Please enter the correct PIN to proceed."): 
 
 ## This informs the user that the entered PIN is incorrect.
+
 print(f"You have {Chances} chances left."): This displays the number of remaining attempts.
    else:
        while True:
            user_choice = input("B: Balance, W: Withdraw, D: Deposit: ")
+           
 ## Correct PIN Handling and Transaction Menu:
 ## else: This block executes if the entered PIN is correct.
 ## while True: This starts a loop for performing transactions.
